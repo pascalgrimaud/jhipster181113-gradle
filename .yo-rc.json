@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.github.pascalgrimaud",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.7.0",
+    "applicationType": "monolith",
+    "baseName": "jhipster181113gradle",
+    "packageName": "io.github.pascalgrimaud",
+    "packageFolder": "io/github/pascalgrimaud",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTExMDBiMjAwYWU4NTZiMzdiZjUxMzRjZDY2NjEzZTk1YWFlZGJjZjZjM2ZlZjhkYzY2YWViZjgxY2Q0ZmFmOTdkYWQ2YTc0OTU2ODlhZmJjNmY4NjAwOWNkMjY4MDFlMDZmZjQ0YjZjNGNlMDM1YmU0M2RkYmY2MTBkY2JiOGU=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ]
+  }
+}
