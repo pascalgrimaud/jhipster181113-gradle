@@ -41,9 +41,6 @@ gradle-test:
 frontend-test:
     stage: test
     script:
-        # You should use default run instead: npm_test 
-        # See documentation at https://www.jhipster.tech/setting-up-ci/
-        # - ./gradlew npm_test -PnodeInstall --no-daemon
         - ./gradlew npm_run_test-ci -PnodeInstall --no-daemon
     artifacts:
         reports:

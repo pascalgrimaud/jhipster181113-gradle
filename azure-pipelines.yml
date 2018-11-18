@@ -29,7 +29,7 @@ jobs:
       chmod +x gradlew
       ./gradlew clean test
     displayName: 'TESTS: backend'
-  - script: npm test -- -u
+  - script: ./gradlew npm_run_test-ci -PnodeInstall --no-daemon
     displayName: 'TESTS: frontend'
   - script: ./gradlew bootWar -Pprod -x test
     displayName: 'TESTS: packaging'

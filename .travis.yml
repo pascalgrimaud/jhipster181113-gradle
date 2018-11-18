@@ -33,7 +33,7 @@ install:
 script:
   - chmod +x gradlew
   - ./gradlew clean test
-  - npm test -- -u
+  - ./gradlew npm_run_test-ci -PnodeInstall --no-daemon
   - ./gradlew bootWar -Pprod -x test
 notifications:
   webhooks:

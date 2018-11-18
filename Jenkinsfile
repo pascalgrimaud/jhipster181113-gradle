@@ -30,9 +30,6 @@ node {
 
     stage('frontend tests') {
         try {
-            // You should use default run instead: npm_test 
-            // See documentation at https://www.jhipster.tech/setting-up-ci/
-            // sh "./gradlew npm_test -PnodeInstall --no-daemon"
             sh "./gradlew npm_run_test-ci -PnodeInstall --no-daemon"
         } catch(err) {
             throw err
